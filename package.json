@@ -1,0 +1,67 @@
+{
+  "name": "scrmh5",
+  "version": "1.0.0",
+  "description": "scrmh5",
+  "author": "wjw",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "qs": "^6.7.0",
+    "vant": "^1.6.14",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.5",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "amfe-flexible": "^2.2.1",
+    "babel-plugin-import": "^1.8.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "postcss-pxtorem": "^4.0.1",
+    "style-resources-loader": "^1.2.1",
+    "vue-cli-plugin-style-resources-loader": "^0.1.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          "Android >= 4.0",
+          "iOS >= 7"
+        ]
+      },
+      "postcss-pxtorem": {
+        "rootValue": 37.5,
+        "propList": [
+          "*"
+        ]
+      }
+    }
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 7"
+  ],
+  "license": "MIT"
+}
